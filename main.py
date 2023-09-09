@@ -21,15 +21,9 @@ streamlit_style = """
         font-family: 'Noto Nastaliq Urdu', serif;
         text-align: right;
     }              
-    
-    .basic-font {
-        font-size: 2rem;        
-    }
 </style>
 """
 st.markdown(streamlit_style, unsafe_allow_html=True)
-basic_font_template = '<p class="basic-font">{}</p>'
-# st.markdown(basic_font_template.format(CHATBOT_DESCRTIPTION), ...
 
 st.title(CHATBOT_TITLE + " 🤖 ")
 st.divider()
